@@ -43,7 +43,7 @@ def test_sum_series():
     except_result_5=11
     acual_result_5=sum_series(5,2,1)
     # inpit irrgual (3,3,1)
-    except_result_irrgual=5 #3 1 4 5
+    except_result_irrgual=5
     acual_result_irrgual=sum_series(3,3,1)
     assert except_result_7==acual_result_7 and except_result_7==sum_series(7,0,1)
     assert except_result_0==acual_result_0 and except_result_0==sum_series(0,0,1)
